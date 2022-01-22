@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+ label{
+  color:red;
+  font-size: larger;
+}
+input{
+  margin-top:10px;
+  width:80%;
+  height:30px;
+  font-size: medium;
+}
+button{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: medium;
+  width:100px
+}
+

@@ -62,19 +62,7 @@ function App() {
       }
     );
   };
-  const addddemployess=()=>{
-    Axios.post('http://localhost:30001/postdata',{
-      name:name,
-      age:age,
-      country:country
-    }).then((response)=>{
-      setEmployeeList([{
-        name,age,country
-      }
-      ])
-    })
-
-  }
+  
 
   const deleteEmployee = (id) => {
     Axios.delete(`http://localhost:3001/delete/${id}`).then((response) => {
